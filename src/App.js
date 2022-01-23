@@ -81,10 +81,10 @@ function App() {
             </Typography>
 
             
-            <Skill skill={'HTML'} value={100} />
-            <Skill skill={'CSS'} value={100} />
-            <Skill skill={'Javascript'} value={100} />
-            <Skill skill={'React'} value={80} />
+            <Skill skill={'HTML'} value={90} />
+            <Skill skill={'CSS'} value={90} />
+            <Skill skill={'Javascript'} value={80} />
+            <Skill skill={'React'} value={60} />
             <Skill skill={'Adobe Creative Suite'} value={60} />
             <Skill skill={'PHP'} value={20} />
             <Skill skill={'Java'} value={20} />
