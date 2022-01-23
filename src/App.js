@@ -25,11 +25,9 @@ function App() {
             flexWrap: 'wrap',
             m: 'auto',
             width: 1024,
-            height: 1440,
             flexDirection: 'row',
             justifyContent: 'flex-start',
             alignContent: 'flex-start',
-            // bgcolor: '#fff322',
           }}
         >
           <Box
@@ -73,7 +71,7 @@ function App() {
           />
           <Divider width={'96%'} variant="middle" color="#ff4333" />
 
-          <Box width={'35%'} /* bgcolor="#fff333" */ m={2}>
+          <Box width={'35%'} m={2}>
             <Box m={2}>
               Reliable Web Developer adept at contributing to high quality work,
               finding solutions and determining customer satisfaction.
