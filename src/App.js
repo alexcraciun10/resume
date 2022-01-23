@@ -69,9 +69,9 @@ function App() {
               border: '3px solid #E4472E',
             }}
           />
-          <Divider width={'96%'} variant="middle" color="#ff4333" />
+          <Divider width={980} variant="middle" color="#ff4333" />
 
-          <Box width={'35%'} m={2}>
+          <Box width={358} m={2}>
             <Box m={2}>
               Reliable Web Developer adept at contributing to high quality work,
               finding solutions and determining customer satisfaction.
@@ -107,7 +107,7 @@ function App() {
               mr={2}
               mt={1}
               mb={0}
-              sx={{ display: 'flex', flexDirection: 'row', width: '100%' }}
+              sx={{ display: 'flex', flexDirection: 'row', width: 'auto' }}
             >
               <Period>2011.10-2015.06</Period>
               <Activity>
@@ -125,7 +125,7 @@ function App() {
               mr={2}
               mt={1}
               mb={0}
-              sx={{ display: 'flex', flexDirection: 'row', width: '100%' }}
+              sx={{ display: 'flex', flexDirection: 'row', width: 'auto' }}
             >
               <Period>2006.09-2010.06</Period>
               <Activity>
@@ -141,7 +141,7 @@ function App() {
 
           <Divider orientation="vertical" variant="middle" flexItem  color="#ff4333"/>
 
-          <Box width={'58%'} m={2}>
+          <Box width={601} m={2}>
             <Typography variant="h4" m={2}>
               WORK EXPERIENCE
             </Typography>
@@ -150,7 +150,7 @@ function App() {
               mr={2}
               mt={1}
               mb={0}
-              sx={{ display: 'flex', flexDirection: 'row', width: '100%' }}
+              sx={{ display: 'flex', flexDirection: 'row', width: 'auto' }}
             >
               <Period>2021.03-2021.10</Period>
               <Activity>

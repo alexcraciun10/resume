@@ -6,25 +6,25 @@ const theme = createTheme({
     fontFamily: 'Montserrat',
     allVariants: {},
     h1: {
-      fontSize: '3rem',
+      fontSize: 48,
       fontWeight: 900,
       color: '#E4472E',
     },
     h2: {
-      fontSize: '2rem',
+      fontSize: 32,
       color: 'black',
     },
     h3: {
-      fontSize: '1.1rem',
+      fontSize: 18,
       color: '#E4472E',
     },
     h4: {
-      fontSize: '1.3rem',
+      fontSize: 20,
       fontWeight: 400,
       color: '#E4472E',
     },
     p: {
-      fontSize: '1rem',
+      fontSize: 16,
     },
   },
 
