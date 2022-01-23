@@ -217,7 +217,7 @@ function App() {
                     Mantained product listings according to specifications
                   </ListItem>
                   <ListItem>
-                    Edited HTML and CSS and images for the customer listings
+                    Edited HTML, CSS and images for the customer listings
                   </ListItem>
                   <ListItem>
                     Executed verifications against databases to check
