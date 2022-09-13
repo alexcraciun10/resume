@@ -42,7 +42,7 @@ function App() {
               ALEXANDRU CRĂCIUN
             </Typography>
             <Typography variant="h2" sx={{ mt: 2, mb: 2 }}>
-              Web Developer
+              {/* Web Developer */}
             </Typography>
 
             <Box
@@ -55,7 +55,7 @@ function App() {
             >
               <Typography variant="h3">+40 767 168 701</Typography>
               <Typography variant="h3">alexandruxc10@gmail.com</Typography>
-              <Typography variant="h3">Bucharest, RO</Typography>
+              <Typography variant="h3">Rm. Valcea, RO</Typography>
             </Box>
           </Box>
           <Avatar
@@ -73,7 +73,7 @@ function App() {
 
           <Box width={358} m={2}>
             <Box m={2}>
-              Reliable Web Developer adept at contributing to high quality work,
+              Eager to learn, adept at contributing to high quality work,
               finding solutions and determining customer satisfaction.
             </Box>
             <Typography variant="h4" m={2}>
@@ -83,11 +83,8 @@ function App() {
             
             <Skill skill={'HTML'} value={90} />
             <Skill skill={'CSS'} value={90} />
-            <Skill skill={'Javascript'} value={80} />
-            <Skill skill={'React'} value={60} />
-            <Skill skill={'Adobe Creative Suite'} value={60} />
-            <Skill skill={'PHP'} value={20} />
-            <Skill skill={'Java'} value={20} />
+            <Skill skill={'React'} value={80} />
+            <Skill skill={'Java'} value={40} />
             <Skill skill={'Collaboration'} value={100} />
             <Skill skill={'Analitical Skills'} value={100} />
 
@@ -97,11 +94,27 @@ function App() {
             </Typography>
 
             <Skill skill={'English'} value={100} />
-            <Skill skill={'German'} value={20} />
 
             <Typography variant="h4" m={2}>
               EDUCATION
             </Typography>
+            <Box
+              ml={2}
+              mr={2}
+              mt={1}
+              mb={0}
+              sx={{ display: 'flex', flexDirection: 'row', width: 'auto' }}
+            >
+              <Period>2022.03-2022.07</Period>
+              <Activity>
+                <Typography variant="h4" m={1}>
+                  INTERNSHIP, DB CLOUD SCHOOL
+                </Typography>
+                <Box m={1}>
+                  Deutsche Bank Romania
+                </Box>
+              </Activity>
+            </Box>
             <Box
               ml={2}
               mr={2}
